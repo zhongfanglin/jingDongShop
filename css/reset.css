@@ -1,0 +1,24 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{
+	margin:0;
+	padding:0;
+	}
+li{ list-style:none;}
+a{ text-decoration:none;}
+h1,h2,h3,h4,h5,h6,b,strong{
+	font-weight:normal;
+	font-size:100%;
+	}
+i,em{
+	font-style: normal;
+}
+input{ outline:none;}
+body,html{ font:12px "微软雅黑", Arial;}
+/*万能清除浮动*/
+.clearfix:after{
+	content:' ';
+	display:block;
+	clear:both;
+	height:0;
+	overflow:hidden;
+	visibility:hidden;
+	}

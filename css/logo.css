@@ -1,0 +1,232 @@
+
+#health_wrapper{
+	height: 38px;
+	background:#fff8f0;
+}
+.health{
+	height: 38px;
+	background:#fff8f0;
+}
+.health p{
+	text-align: center;
+	line-height: 38px;
+	color: #999999;
+}
+.health p a{
+	color: #000;
+}
+.health p a:hover{
+	text-decoration: underline;
+}
+#banner_wrapper{
+	height: 475px;
+	background: #245fbd;
+}
+.banner{
+	height: 475px;
+	background: url(../images/banner.jpg) no-repeat;
+	position: relative;
+}
+.logoPage{
+	width: 350px;
+	height: 430px;
+	background: #fff;
+	position: absolute;
+	right: 0;
+	top: 10px;
+}
+.logoPage .logoPage_top{
+	height: 38px;
+	background: #fff8f0;;
+}
+.logoPage .logoPage_top p{
+	text-align: center;
+	line-height: 38px;
+	color: #999999;
+}
+.logoPage .denglu{
+	height:54px;
+	text-align: center;
+	border-bottom: 1px solid #f4f4f4;
+}
+.logoPage .denglu a{
+	padding: 0 53px 0 54px;
+	font-size: 16px;
+	color: #66667f;
+	line-height: 54px;
+}
+.logoPage .denglu a:nth-child(1){
+	font-weight: bolder;
+	color: #f40;
+}
+.logoPage .denglu a:hover{
+	font-weight: bolder;
+	color: #f40;
+}
+.logoPage .ewm{
+	height: 284px;
+	text-align: center;
+}
+.logoPage .ewm .ma{
+	display: inline-block;
+	margin-top: 20px;
+	height: 156px;
+	width: 156px;
+	padding: 8px;
+	border:1px solid #F4F4F4;
+	margin-bottom: 7px;
+}
+.logoPage .ewm .phone{
+	display: none;
+	width: 148px;
+	height: 168px;
+	background: url(../images/phone-orange.png) no-repeat;
+}
+.logoPage .ewm p{
+	line-height: 48px;
+}
+.logoPage .ewm p a{
+	color: #f40;
+	margin-right: 16px;
+}
+.logoPage .ewm i em{
+	vertical-align: middle;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	margin-left: 15px;
+	margin-right: 8px;
+	background: url(../images/qr-coagent.png) no-repeat;
+}
+.logoPage .ewm i em:nth-child(2){
+	background-position: -27px 0;
+}
+.logoPage .ewm i em:nth-child(3){
+	background-position: -54px 0;
+}
+.logoPage .logoBox{
+	display: none;
+	padding-top: 32px;
+	box-sizing: border-box;
+	height: 284px;
+	text-align: center;
+}
+.logoBox p:nth-child(1){
+	display: inline-block;
+	margin-bottom: 18px;
+	width: 308px;
+	height: 38px;
+	border: 1px solid #999999;
+}
+.logoBox p:nth-child(1) input{
+	float: right;
+	display: inline-block;
+	padding-left: 11px;
+	box-sizing: border-box;
+	width: 266px;
+	height: 38px;
+	border: none;
+}
+.logoBox p:nth-child(1) i{
+	float: left;
+	display: inline-block;
+	width: 38px;
+	height: 38px;
+	vertical-align: middle;
+	background: url(../images/pwd-icons-new.png) no-repeat;
+}
+.logoBox p:nth-child(2){
+	display: inline-block;
+	margin-bottom: 18px;
+	width: 308px;
+	height: 38px;
+	border: 1px solid #999999;
+}
+.logoBox p:nth-child(2) input{
+	float: right;
+	padding-left: 11px;
+	box-sizing: border-box;
+	display: inline-block;
+	width: 266px;
+	height: 38px;
+	border: none;
+}
+.logoBox p:nth-child(2) i{
+	float: left;
+	display: inline-block;
+	width: 38px;
+	height: 38px;
+	vertical-align: middle;
+	background: url(../images/pwd-icons-new.png) no-repeat;
+	background-position: -48px -48px;
+}
+.logoBox p:nth-child(3){
+	text-align: right;
+	margin-right: 20px;
+	margin-bottom: 24px;
+}
+.logoBox p:nth-child(3) a{
+	color: #666666;
+	font-size: 12px;
+}
+.logoBox p:nth-child(3) a:hover{
+	color: #f40;
+	text-decoration: underline;
+}
+.logoBox p:nth-child(4) input{
+	width: 308px;
+	height: 36px;
+	background: #e4393c;
+	border: none;
+	font-size: 18px;
+	color: #fff;
+}
+.logoPage .fot{
+	line-height: 53px;
+	height: 53px;
+	background:#fcfcfc;
+}
+.logoPage .fot .fot_left{
+	float: left;
+}
+.logoPage .fot .fot_left a{
+	display: inline-block;
+	margin-right: 15px;
+	color: #666666;
+}
+.logoPage .fot .fot_left a:hover{
+	color: #f40;
+	text-decoration: underline;
+}
+.logoPage .fot .fot_left a i{
+	display: inline-block;
+	width: 19px;
+	height:19px;
+	margin-left: 20px;
+	margin-right: 8px;
+	vertical-align: middle;
+	background: url(../images/QQ-weixin.png) no-repeat;
+}
+.logoPage .fot .fot_left a:nth-child(2) i{
+	background-position: -19px 0;
+}
+.logoPage .fot .fot_right{
+	float: right;
+}
+.logoPage .fot .fot_right a{
+	color: #b61d1d;
+	font-size: 14px;
+	margin-right: 22px;
+}
+.logoPage .fot .fot_right a i{
+	display: inline-block;
+	height: 17px;
+	width: 17px;
+	background: url(../images/pwd-icons-new.png) no-repeat;
+	background-position: -103px -74px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.logoPage .fot .fot_right a:hover{
+	text-decoration: underline;
+}
