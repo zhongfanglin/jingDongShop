@@ -30,3 +30,23 @@
 	height: 30px;
 	line-height: 30px;
 }
+.header_right .head{
+	height: 30px;
+	line-height: 30px;
+	display: inline-block;
+}
+.header_right .head li{
+	float: left;
+}
+.header_right .head li a{
+	color: #999999;
+	font-size: 12px;
+	padding: 0 12px;
+}
+.header_right .head li:nth-child(1) a:nth-child(1){
+	color: #f40;
+}
+.header_right .head li a:hover{
+	color: #f40;
+}
+
