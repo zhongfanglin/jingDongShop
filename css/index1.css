@@ -1,0 +1,37 @@
+#search_wrapper{
+	height: 93px;
+	background:#f0f3ef;
+}
+.search{
+	height: 93px;
+	background:#f0f3ef;
+}
+.content{
+	width: 1188px;
+	margin: 0 auto;
+}
+.search_left{
+	float: left;
+	margin-left: 320px;
+	width: 554px;
+}
+.search_left .search_input{
+	padding-top: 20px;
+	box-sizing: border-box;
+}
+.search_left .search_input .txt{
+	width: 500px;
+	height: 36px;
+	background: #fff;
+	border: none;
+	float: left;
+	padding-left: 4px;
+	box-sizing: border-box;
+}
+.search_left .search_input .sub{
+	width: 54px;
+	height: 36px;
+	border: none;
+	float: right;
+	background: #f10215;
+}
