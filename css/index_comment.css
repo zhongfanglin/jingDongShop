@@ -1,0 +1,32 @@
+#hearder_wrapper{
+	height: 30px;
+	background: #e3e4e5;
+}
+.header{
+	height: 30px;
+	background: #e3e4e5;
+}
+.content{
+	width: 1188px;
+	margin: 0 auto;
+}
+.header_left{
+	float: left;
+	margin-left: 208px;
+	line-height: 30px;
+	width: 52px;
+	height: 30px;
+}
+.header_left i{
+	margin-right: 6px;
+	vertical-align: middle;
+	display: inline-block;
+	width: 11px;
+	height: 14px;
+	background: url(../images/tb.jpg) no-repeat;
+}
+.header_right{
+	float: right;
+	height: 30px;
+	line-height: 30px;
+}
