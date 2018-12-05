@@ -87,6 +87,19 @@
 	font-size: 12px;
 	color: #f40;
 }
+.search_right .buyBox .shopCar{
+	display: inline-block;
+	width: 23px;
+	height: 20px;
+	background: url(../images/tool.png) no-repeat;
+	vertical-align: middle;
+	margin-right: 8px;
+}
+.search_right .buyBox .count{
+	margin-left: 3px;
+	font-size: 14px;
+	color: #f40;
+}
 .search_right .erweima{
 	border: 1px solid #cfcfcf;
 	box-sizing: border-box;
@@ -101,4 +114,71 @@
 	height: 60px;
 	display: block;
 	background: url(../images/sma.png) no-repeat;
+}
+#nav_wrapper{
+	height:43px;
+	background: #f0f3ef;
+}
+.navs{
+	height:43px;
+	background: #f0f3ef;
+	position: relative;
+}
+.navs_left{
+	float: left;
+	margin-left: 225px;
+	height: 43px;
+	line-height: 43px;
+}
+.navs_left a{
+	font-size: 12px;
+	color: #333333;
+	margin: 0 11px;
+}
+.navs_left a:hover{
+	color: #f40;
+}
+.navs_right{
+	width: 189px;
+	height:36px;
+	float: right;
+}
+.navs_right .piao{
+	display: block;
+	width: 189px;
+	height: 36px;
+	background: url(../images/piao.jpg) no-repeat;
+}
+.navs .logo a{
+	display: block;
+	width: 190px;
+	height: 170px;
+	background: url(../images/header.png) no-repeat;
+	position: absolute;
+	top: -127px;
+	left: 0;
+	text-indent: -9999px;
+}
+#main_wrapper{
+	height: 510px;
+	background: #f0f3ef;
+}
+.main{
+	height: 510px;
+	background: #f0f3ef;
+	overflow: hidden;
+}
+.main_left{
+	margin-top: 2px;
+	width: 190px;
+	height: 478px;
+	background: #fff;
+	float: left;
+}
+.main_banner{
+	margin: 10px 0 0 8px;
+	width: 590px;
+	height: 470px;
+	float: left;
+	background: #00008B;
 }
