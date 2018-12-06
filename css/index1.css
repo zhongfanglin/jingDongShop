@@ -181,4 +181,84 @@
 	height: 470px;
 	float: left;
 	background: #00008B;
+	position: relative;
+}
+.main_banner .banner_img{
+	height:470px;
+}
+.main_banner .banner_img li{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.main_banner .banner_sort{
+	position: absolute;
+	left: 50px;
+	bottom: 20px;
+}
+.main_banner .banner_sort li{
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 10px;
+	text-align: center;
+	line-height: 14px;
+}
+.backColor{
+	background: #fff;
+	color: #000;
+}
+.current{
+	background: #000;
+	color: #fff;
+}
+._left{
+	display: block;
+	width: 20px;
+	height: 40px;
+	background: #000;
+	opacity: 0.4;
+	position: absolute;
+	left: 20px;
+	top: 200px;
+}
+._right{
+	display: block;
+	width: 20px;
+	height: 40px;
+	background: #000;
+	opacity: 0.4;
+	position: absolute;
+	right: 20px;
+	top: 200px;
+}
+.main_pic{
+	width: 190px;
+	float: left;
+}
+.main_pic a{
+	display: block;
+	width: 190px;
+	height: 150px;
+	margin: 10px;
+}
+.main_pic a:hover{
+	opacity: 0.5;
+}
+.main_pic a:nth-child(1){
+	background: url(../images/pic1.jpg) no-repeat;
+}
+.main_pic a:nth-child(2){
+	background: url(../images/pic2.jpg) no-repeat;
+}
+.main_pic a:nth-child(3){
+	background: url(../images/pic3.jpg) no-repeat;
+}
+.main_right{
+	margin-top: 10px;
+	width: 188px;
+	height: 470px;
+	float: right;
+	background: #fff;
 }
