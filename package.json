@@ -20,5 +20,12 @@
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-uglify": "^3.0.1"
+  },
+  "dependencies": {
+    "del": "^3.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-rename": "^1.4.0",
+    "rename": "^1.0.4"
   }
 }
