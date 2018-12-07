@@ -38,6 +38,23 @@
 .search_left .search_input form{
 	position: relative;
 }
+.search_left .search_input form .datalist{
+	position: absolute;
+	left: 0;
+	top: 37px;
+	z-index: 2;
+	width: 500px;
+	background: #fff;
+}
+.search_left .search_input form .datalist li{
+	height: 30px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	line-height: 30px;
+}
+.search_left .search_input form .datalist li:hover{
+	background: #ccc;
+}
 .search_left .search_input form .canmare{
 	display: block;
 	width:19px;
@@ -174,6 +191,24 @@
 	height: 478px;
 	background: #fff;
 	float: left;
+}
+.main_left .left_nav{
+	height: 100%;
+}
+.main_left .left_nav li:nth-child(1){
+	padding-top: 10px;
+}
+.main_left .left_nav li{
+    padding: 5px 0 5px 20px;
+}
+.main_left .left_nav li:hover{
+    background: #ccc;
+}
+.main_left .left_nav li a{
+	color: #626262;
+}
+.main_left .left_nav li a:hover{
+	color: #f40;
 }
 .main_banner{
 	margin: 10px 0 0 8px;
