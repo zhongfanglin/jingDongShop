@@ -49,4 +49,11 @@
 .header_right .head li a:hover{
 	color: #f40;
 }
-
+#footer_wrapper{
+	height:554px;
+	background: #f0f3ef;
+}
+.footer{
+	height:554px;
+	background: #f0f3ef;
+}
