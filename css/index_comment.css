@@ -57,3 +57,78 @@
 	height:554px;
 	background: #f0f3ef;
 }
+.footer_top{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 90px;
+	border-bottom: 1px solid #dedede;
+}
+.footer_top span{
+	width: 207px;
+	height: 43px;
+	display: block;
+	background: url(../images/foot.jpg) no-repeat;
+}
+.foot_list{
+	padding: 20px 0;
+	box-sizing: border-box;
+	height: 200px;
+	border-bottom: 1px solid #dedede;
+}
+.foot_list .foot_list_left{
+	float: left;
+	width: 844px;
+	height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.foot_list .foot_list_left span{
+	width: 20%;
+	font-size: 14px;
+	font-weight: bold;
+}
+.foot_list .foot_list_left span a{
+	font-size: 12px;
+	color: #9e9f9d;
+}
+.foot_list .foot_list_left span a:hover{
+	color: #f40;
+}
+.foot_list .foot_list_right{
+	float: right;
+	width: 194px;
+	height: 100%;
+}
+.foot_list .foot_list_right a{
+	width: 194px;
+	height: 147px;
+	display: block;
+	background: url(../images/map.jpg) no-repeat;
+}
+.foot_center{
+	text-align: center;
+	padding-top: 16px;
+	box-sizing: border-box;
+}
+.foot_center p{
+	margin-bottom: 10px;
+}
+.foot_center a{
+	padding: 0 10px;
+	font-size: 12px;
+	color: #666666;
+}
+.foot_center a:hover{
+	color: #f40;
+}
+.foot_center p:nth-child(7){
+	margin-top: 38px;
+}
+.foot_center p:nth-child(7) a{
+	display: inline-block;
+	width: 102px;
+	height: 32px;
+	background: url(../images/ft.jpg) no-repeat;
+}
