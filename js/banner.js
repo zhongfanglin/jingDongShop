@@ -21,6 +21,14 @@ var banner=(function(){
 				$('._right').click(function(){
 					_this.showImag(++_this.index);
 				})
+				$('.gg').mouseenter(function(){
+					$('.guanggao').css('display','flex');
+					$('.cuxiao').css('display','none');
+				})
+				$('.cu').mouseenter(function(){
+					$('.guanggao').css('display','none');
+					$('.cuxiao').css('display','flex');
+				})
 			})
 		},
 		showImag:function(index){

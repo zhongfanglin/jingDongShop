@@ -297,3 +297,138 @@
 	float: right;
 	background: #fff;
 }
+.main_right .headPic{
+	text-align: center;
+	height: 104px;
+	padding-top: 65px;
+	box-sizing: border-box;
+	position: relative;
+}
+.main_right .headPic .touxiang{
+	display: block;
+	width: 62px;
+	height:62px;
+	border-radius: 50%;
+	border: 4px solid #e3e1df;
+	background: url(../images/touxiang.jpg) no-repeat;
+	background-size: cover;
+	position: absolute;
+	left: 60px;
+	top: -10px;
+}
+.main_right .headPic p{
+	line-height: 20px;
+}
+.main_right .headPic p a{
+	font-size: 12px;
+	color: #8e8e8e;
+	margin-right: 7px;
+}
+.main_right .headPic p a:hover{
+	color: #f40;
+}
+.main_right .newPeople{
+	height: 46px;
+	padding: 0 20px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.main_right .newPeople a{
+	display: block;
+	width: 70px;
+	height: 24px;
+	text-align: center;
+	line-height: 24px;
+	border-radius:12px ;
+	font-weight: bold;
+}
+.main_right .newPeople a:nth-child(1){
+	color: #e43f3b;
+	background: #FFF8F0;
+	
+}
+.main_right .newPeople a:nth-child(2){
+	color: #6e6951;
+	background: #363634;
+}
+.main_right .newPeople a:hover{
+	background: #f40;
+	color: #fff;
+}
+.main_right .news{
+	height: 30px;
+}
+.main_right .news a{
+	font-size: 12px;
+	color: #696969;
+	margin: 0 14px;
+}
+.main_right .news a:nth-child(3){
+	margin: 0px 14px 0px  35px;
+}
+.main_right .news a:hover{
+	text-decoration: underline;
+	color: #f40;
+}
+.main_right .news_list{
+	height: 104px;
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+.main_right .news_list .cuxiao{
+	display: flex;
+	width: 100%;
+	height: 104px;
+	flex-direction: column;
+	border-bottom: 1px solid #ebeaea;
+	justify-content: space-around;
+	
+}
+.main_right .news_list .cuxiao a{
+	font-size: 12px;
+	color: #b9b9b9;
+}
+.main_right .news_list .cuxiao a:hover{
+	color: #f40;
+}
+.main_right .news_list .guanggao{
+	display: none;
+	width: 100%;
+	height: 104px;
+	flex-direction: column;
+	border-bottom: 1px solid #ebeaea;
+	justify-content: space-around;
+}
+.main_right .news_list .guanggao a{
+	font-size: 12px;
+	color: #b9b9b9;
+}
+.main_right .news_list .guanggao a:hover{
+	color: #f40;
+}
+.main_right .kuaijie{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.main_right .kuaijie a{
+	margin-top: 10px;
+	width: 25%;
+	color: #d9cabb;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.main_right .kuaijie a:hover{
+	color: #f40;
+}
+.main_right .kuaijie a i{
+	margin-bottom: 8px;
+	width: 15px;
+	height: 19px;
+	display: block;
+	background: url(../images/icon.jpg) no-repeat;
+}
