@@ -71,3 +71,56 @@
 .shopList{
 	background: #fff;
 }
+.shopList .lists li{
+	height: 150px;
+	width: 100%;
+	border: 1px solid #eeeeee;
+}
+.shopList .contentsAll{
+	padding-top: 20px;
+	box-sizing: border-box;
+	height: 120px;
+}
+.shopList .inp{
+	float: left;
+}
+.shopList .img{
+	float: left;
+	width: 82px;
+	height: 82px;
+	border: 1px solid #eeeeee;
+}
+.shopList .con{
+	float: left;
+	width: 206px;
+	height: 82px;
+	}
+.shopList .colors{
+	float: left;
+	width: 141px;
+	height: 80px;
+}
+.shopList .price{
+	float: left;
+	width: 65px;
+	height: 80px;
+}
+.shopList .num input{
+	width: 82px;
+	height: 20px;
+}
+.shopList .num{
+	width: 82px;
+	height: 20px;
+	float:left;
+}
+.shopList .jiage{
+	width: 60px;
+	height: 80px;
+	float: left;
+}
+.shopList .move{
+	width: 100px;
+	height: 80px;
+	float: right;
+}
