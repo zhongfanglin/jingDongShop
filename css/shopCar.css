@@ -1,0 +1,73 @@
+.header_left .stb{
+	width: 16px;
+	height: 14px;
+	display: inline-block;
+	background: url(../images/gou_03.jpg) no-repeat;
+	vertical-align: middle;
+}
+.header_left{
+	margin-left: 0px;
+	width: 131px;
+}
+.header_left a{
+	margin-right: 16px;
+	font-size:12px;
+	color: #999999;
+}
+#logo_wrapper{
+	height: 114px;
+	background: #fff;
+}
+.logo{
+	padding-top: 25px;
+	box-sizing: border-box;
+	height: 114px;
+	background: #fff;
+}
+.logo_left{
+	float: left;
+	width: 250px;
+}
+.logo_left .sLo{
+	float: left;
+	margin-right: 17px;
+	display: inline-block;
+	height: 60px;
+	width: 170px;
+	background: url(../images/logo.png) no-repeat;
+	text-indent: -9999px;
+	
+}
+.logo_left .sCar{
+	float: right;
+	display: inline-block;
+	margin-top: 22px;
+	font-size: 20px;
+	color: #333333;
+	font-weight: bold;
+}
+.logo_right{
+	float: right;
+	margin-top: 10px;
+}
+.logo_right .txt{
+	padding-left: 8px;
+	box-sizing: border-box;
+	float: left;
+	height: 26px;
+	width: 272px;
+	border: 1px solid #f40;
+}
+.logo_right .sub{
+	float: right;
+	width: 54px;
+	height: 26px;
+	border: none;
+	background: #f40;
+}
+#shopList_wrpper{
+	background: #fff;
+}
+.shopList{
+	background: #fff;
+}
