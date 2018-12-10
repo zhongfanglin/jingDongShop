@@ -1,10 +1,11 @@
 [
    {
-     "src":"//img10.360buyimg.com/cms/s80x80_jfs/t29590/353/170147127/271400/2e654ec0/5bea361dN1644ec25.jpg",
+     "src":"//img11.360buyimg.com/jdcms/s170x170_jfs/t1/9651/2/2172/237991/5bd16cfdE947f4ea7/d40a58dd81c25b49.jpg!q90!cc_170x170.webp",
      "name":"联想ThinkPad 翼480",
      "contents":"联想ThinkPad 翼480 英特尔8代酷睿14英寸轻薄窄边框笔记本电脑（i5-8250U 8G 256GSSD 2G独显 FHD IPS屏）银",
      "color":"冰原银",
-     "price":"¥5499.00",
+     "price":"5499.00",
+     "num":"1",
      "size":"i5-8250U",
      "weight":"2.66kg" 
    },
@@ -12,7 +13,9 @@
         "src": "//img11.360buyimg.com/jdcms/s170x170_jfs/t1/9651/2/2172/237991/5bd16cfdE947f4ea7/d40a58dd81c25b49.jpg!q90!cc_170x170.webp",
         "name": "戴尔DELL G7",
         "contents": "戴尔DELL G7 15.6英寸游戏设计师笔记本电脑(i5-8300H 8G 128G PCleSSD 1T GTX1050Ti 4G 背光键盘 IPS)黑",
-        "price": "￥6599.00",
+        "color":"金属色",
+        "price": "6599.00",
+        "num":"1",
         "size":"i5-CPU",
     	"weight":"2.15kg"
     },
@@ -20,7 +23,9 @@
         "src": "//img11.360buyimg.com/jdcms/s170x170_jfs/t27766/63/1969500442/235512/55242b16/5bf38350N60acad0f.jpg!q90!cc_170x170.webp",
         "name": "华硕(ASUS) 灵耀U",
         "contents": "华硕(ASUS) 灵耀U 2代 14英寸合金机身轻薄笔记本电脑(i5-8265U 8G 512GSSD MX150 2G IPS)尊爵蓝(U4300)",
-        "price": "￥6699.00",
+        "color":"银灰色",
+        "price": "6699.00",
+        "num":"1",
         "size":"i5-8265U",
      	"weight":"2.57kg"
     },
@@ -28,7 +33,9 @@
         "src": "////img10.360buyimg.com/jdcms/s170x170_jfs/t26161/5/1718223281/117541/1cb4e3a7/5bea3a33N529af2c1.jpg!q90!cc_170x170.webp",
         "name": "Surface Pro（第五代",
         "contents": "【亮铂金键盘套装】微软（Microsoft）Surface Pro（第五代）二合一平板电脑笔记本（Core i5 8G 128G）",
-        "price": "￥6988.00",
+        "color":"黑色",
+        "price": "6988.00",
+        "num":"1",
         "size":"Core i5 8G",
      	"weight":"2.68kg"
     }
