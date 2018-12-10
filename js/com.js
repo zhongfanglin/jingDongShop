@@ -16,10 +16,6 @@ var computer=(function(){
 				$('.computer ul li').on('click','li',function(){
 					location.href='register.html';
 				})
-				$('.btn').on('click',function(){
-					localStorage.shopList=_this.data;
-					console.log(_this.data);
-				})
 			})
 		},
 		getData:function(){
@@ -37,14 +33,11 @@ var computer=(function(){
 				$img.src=data[i].src;
 				$p1=document.createElement('p');
 				$p2=document.createElement('p');
-				$btn=document.createElement('button');
 				$p1.innerHTML=data[i].content;
 				$p2.innerHTML=data[i].money;
-				$btn.innerHTML="加入购物车";
 				$a.appendChild($img);
 				$a.appendChild($p1);
 				$a.appendChild($p2);
-				$a.appendChild($btn);
 				this.liAll[i].appendChild($a);
 			}
 		}
