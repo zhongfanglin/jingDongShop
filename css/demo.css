@@ -1,0 +1,259 @@
+.warpper{
+    width: 1256px;
+    background: #e3e4e5;
+}
+.content{
+    width: 1210px;
+    margin: 0 auto;
+}
+.jd{
+    height: 30px;
+    background: #e3e4e5;
+}
+header{
+    width: 1210px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sy{
+    display: flex;
+}
+.sy a:nth-child(1){
+    display: flex;
+    margin-right: 14px;
+    color: #c2c2c3;
+}
+.sy a:nth-child(2){
+    display: flex;
+    color: #c2c2c3;
+}
+.menu_1{
+    display: flex;
+}
+.menu_1 li a{
+    display: block;
+    height: 12px;
+    border-left: 1px solid #cccccc;
+    text-align: center;
+    line-height: 12px;
+    padding: 0 10px;
+    color: #c2c2c3;
+}
+.menu_1 li:nth-child(1) a{
+    border-left: 0;
+}
+.menu_1 li:nth-child(1) i{
+    display: inline-block;
+    text-align: center;
+    color: #f1f0ed;
+    width: 38px;
+    height: 16px;
+    background: #d3d0c5
+}
+.warpper_log{
+    width: 1256px;
+}
+.log{
+    height: 210px;
+}
+.log_t{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.log_t a:nth-child(1){
+    display: inline-block;
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    
+}
+.log_t  a:nth-child(2){
+    display: inline-block;
+    width: 73px;
+    height: 22px;
+    color: #cccccc;
+    text-align: center;
+    font-size: 12px;line-height: 22px;
+    border: 1px solid #cccccc;
+    margin-left: 44px;
+}
+.log_t .search{
+    margin-left: 110px;
+    display: flex;align-items: center;
+}
+.log_t .search input{
+    width: 454px;
+    height: 32px;
+    border: 2px solid #b61d1d;
+    border-right: 0;
+}
+.search .qz{
+    width: 58px;
+    height: 36px;
+    background: #b61d1d;
+    border: 0;
+    color: #fff;
+}
+.search .bd{
+    width: 58px;
+    height: 36px;
+    background: #474e5c;
+    border: 0;
+    color: #fff;
+}
+.ull{
+    display: flex;
+    height: 39px;
+    margin-left: 110px;
+}
+.ull li{
+    margin-right: 10px;
+}
+.ull li a{
+    display: block;
+    height: 39px;
+    line-height: 39px;
+    font-size: 12px;
+    color: #a4a4a4;
+}
+.log_b{
+    height: 110px;display: flex;
+}
+.log_b .tb a{
+    display: block;
+    height: 110px;
+    font-size: 26px;
+    color: #087ab9;
+    display: flex;
+    align-items: center;
+} 
+.log_b .tb a img{
+    height: 68px;
+    width: 68px;
+    margin-right: 16px;
+}
+.log_b .comp{
+    margin-left: 50px;
+}
+.log_b .comp a{
+    display: block;
+    display: flex;
+
+}
+.log_b .comp a h2{
+    font-size: 18px;
+    color: #1f1f1f;
+    font-weight: 600;
+}
+.log_b .comp a i{
+    font-size: 14px;
+    color: #797979;
+}
+.log_b .comp a h3{
+    display: block;
+    background: #007cb8;
+    width: 80px;
+    height: 22px;
+    line-height: 22px;
+    color: #fefef2;
+    text-align: center;
+    margin-top: 12px;
+}
+.warpper_ban{
+    width: 1256px;
+    height: 40px;
+    background: #067eb9;
+}
+.ban{
+    height: 40px;
+    background: #067eb9;
+}
+.ban ul{
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+.ban ul li{
+    width: 98px;
+    height: 16px;
+    text-align: center;
+    border-left: 2px solid #bedded;
+}
+.ban ul li:nth-child(1){
+    width: 182px;
+}
+.ban ul li a{
+    display: block;
+    color: #fff;
+}    
+.warpper_ban2{
+    width: 1256px;
+    height: 40px;
+    background: #f2f2f2;
+}  
+.ban2{
+    height: 40px;
+    background: #f2f2f2; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}   
+.ban2 .xz a{
+    display: block;
+    width: 80px;;
+    height: 40px;
+    line-height: 40px;
+    color: #9f9f9f;
+}  
+.ban2 ul{
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.ban2 ul li:nth-child(1) a{
+    display: block;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.jdd{
+    width: 17px;
+    height: 14px;
+    border: 1px solid #b61d1d;
+}
+.zy{
+    width: 26px;
+    height: 16px;
+    background: #b61d1d;
+    color:#ffffff;
+}
+.ban2 ul li:nth-child(2) a{
+    display: block;
+    font-size: 12px;
+    color: #666666;
+    margin-right: 10px;
+}
+.ban2 ul li:nth-child(3) a{
+    display: block;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #666666;
+    margin-right: 10px;
+}
+.ban2 ul li:nth-child(4) a{
+    display: block;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #666666;
+    margin-right: 10px;
+}
