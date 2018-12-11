@@ -1,4 +1,5 @@
 <?php
+   header("Access-Control-Allow-Origin:*");
    $username=$_POST['name'];
    $password=$_POST['passwords'];
    $coon=new mysqli('localhost','root','','db_jingdong_admin',3306);

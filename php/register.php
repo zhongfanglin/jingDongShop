@@ -1,6 +1,7 @@
 <?php
-		$username=$_POST['name'];
-		$password=$_POST['passwords'];
+	header("Access-Control-Allow-Origin:*");
+	$username=$_POST['name'];
+	$password=$_POST['passwords'];
     $coon=new mysqli('localhost','root','','db_jingdong_admin',3306);
     $sql="select * from admin where username='$username'";
     $coon->query("SET CHARACTER SET 'utf8'");

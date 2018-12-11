@@ -84,7 +84,7 @@ gulp.task('es6toes5', function () {//ES6转ES5
 // 开启服务器
 gulp.task('connect', function() {
     connect.server({
-        root: 'dist',
+        root: './',
         port: '7777',
         livereload: true
     }); 
