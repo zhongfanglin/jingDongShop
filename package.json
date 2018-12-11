@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/zhongfanglin/-#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.11.0"
   }
 }
