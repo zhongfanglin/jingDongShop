@@ -36,6 +36,11 @@ var banner=(function(){
 					$('.user').html(`您好,请登录`);
 					$('.users').html(`Hi,<a href="#">欢迎来到京东</a>`);
 				}
+				if(localStorage.sum){
+					$('.count').html(`${localStorage.sum}`);
+				}else{
+					$('.count').html(`0`);
+				}
 			})
 		},
 		showImag:function(index){

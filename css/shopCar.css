@@ -73,7 +73,22 @@
 }
 .shopList .lis{
 	margin-left: 92px;
+	
+}
+.shopList .heji{
+	height: 30px;
+	float: right;
 	margin-bottom: 100px;
+	line-height: 30px;
+}
+.shopList .heji span{
+	font-size: 16px;
+	color: #f40;
+	display: inline-block;
+}
+.shopList .heji button{
+	display: inline-block;
+	margin-left: 20px;
 }
 .shopList .lis li{
 	height: 150px;

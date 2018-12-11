@@ -18,6 +18,7 @@ var shopCar=(function(){
                  _this.setItem(_this.data[i]);
                  _this.lis.innerHTML='';
                  _this.carData();
+                 _this.checkAll();
 				}
 			}
 			if(localStorage.username){
@@ -142,6 +143,15 @@ var shopCar=(function(){
 			       }
 				}
 			}
+			var span=document.querySelectorAll('.jiage span');
+			localStorage.sum=span.length;
+			var heji=document.querySelector('.heji span');
+			var zong=0;
+			for(var i=0;i<span.length;i++){
+				zong+=parseInt(span[i].innerHTML);
+			}
+			heji.innerHTML=zong+'.00';
+			
         }
 	}
 }());
