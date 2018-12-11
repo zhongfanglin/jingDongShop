@@ -29,6 +29,13 @@ var banner=(function(){
 					$('.guanggao').css('display','none');
 					$('.cuxiao').css('display','flex');
 				})
+				if(localStorage.username){
+					$('.user').html(`${localStorage.username}请登录`);
+					$('.users').html(`${localStorage.username},<a href="#">欢迎来到京东</a>`)
+				}else{
+					$('.user').html(`您好,请登录`);
+					$('.users').html(`Hi,<a href="#">欢迎来到京东</a>`);
+				}
 			})
 		},
 		showImag:function(index){

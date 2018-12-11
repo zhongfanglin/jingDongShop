@@ -47,6 +47,7 @@ var logo=(function(){
 							alert('用户名错误');
 						}else if(xhr.responseText=='success'){
 							location.href='index1.html';
+							localStorage.username=txtVal;
 						}else if(xhr.responseText=='password error'){
 							alert('密码错误，重新输入');
 						}
