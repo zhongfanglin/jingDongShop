@@ -38,7 +38,7 @@ var logo=(function(){
 					pwdVal=pwd.value;
 					data=`name=${txtVal}&passwords=${pwdVal}`;
 					var xhr=new XMLHttpRequest();
-					xhr.open('POST','php/logo.php',true);
+					xhr.open('POST','http://10.36.141.157:8888/-/php/logo.php',true);
 					xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
 					xhr.send(data);
 					xhr.onreadystatechange=function(){
@@ -47,6 +47,7 @@ var logo=(function(){
 							alert('用户名错误');
 						}else if(xhr.responseText=='success'){
 							location.href='index1.html';
+							localStorage.username=txtVal;
 						}else if(xhr.responseText=='password error'){
 							alert('密码错误，重新输入');
 						}

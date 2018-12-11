@@ -89,7 +89,7 @@ var register=(function(){
 					passwords=_this.passwords.value;
 					data=`name=${username}&passwords=${passwords}`;
 					var xhr=new XMLHttpRequest();
-					xhr.open('POST','php/register.php',true);
+					xhr.open('POST','http://10.36.141.157:8888/-t/php/register.php',true);
 					xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
 					xhr.send(data);
 					xhr.onreadystatechange=function(){
