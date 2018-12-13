@@ -35,10 +35,10 @@ var logo=(function(){
 					var txt=document.querySelector('[type=text]'),
 					pwd=document.querySelector('[type=password]'),
 					txtVal=txt.value,
-					pwdVal=pwd.value;
+					pwdVal=pwd.value,
 					data=`name=${txtVal}&passwords=${pwdVal}`;
 					var xhr=new XMLHttpRequest();
-					xhr.open('POST','http://10.36.141.157:8888/-/php/logo.php',true);
+					xhr.open('POST','http://10.36.141.231:8888/-/php/logo.php',true);
 					xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
 					xhr.send(data);
 					xhr.onreadystatechange=function(){

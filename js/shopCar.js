@@ -61,7 +61,7 @@ var shopCar=(function(){
         	if(localStorage.shopList!='[]'){
 				document.querySelector('.shopList p').style.display='block';
 			}else{
-				$li=document.createElement('li');
+				var $li=document.createElement('li');
 				$li.innerHTML=`购物车空，<a href='index1.html'>去购物吧</a>`;
 				$li.style.fontSize='24px';
 				$li.style.textAlign='center';
@@ -73,7 +73,7 @@ var shopCar=(function(){
 			shopList=JSON.parse(shopList);
 			for(var i=0;i<shopList.length;i++){
 				var money=parseInt(shopList[i].price)*parseInt(shopList[i].num);
-	            $li=document.createElement('li');
+	            var $li=document.createElement('li');
 				$li.innerHTML=`<div class="contentsAll clearfix">
 							<div class="inp"><input type="checkbox" class='checkboxs' /></div>
 							<div class="img">

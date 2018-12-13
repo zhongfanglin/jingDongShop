@@ -86,10 +86,10 @@ var register=(function(){
 				_this.i=i;
 				if(_this.i==3){
 					var username=_this.username.value,
-					passwords=_this.passwords.value;
+					passwords=_this.passwords.value,
 					data=`name=${username}&passwords=${passwords}`;
 					var xhr=new XMLHttpRequest();
-					xhr.open('POST','http://10.36.141.157:8888/-/php/register.php',true);
+					xhr.open('POST','http://10.36.141.231:8888/-/php/register.php',true);
 					xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
 					xhr.send(data);
 					xhr.onreadystatechange=function(){

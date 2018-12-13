@@ -27,12 +27,12 @@ var computer=(function(){
 		},
 		insertData:function(data){
 			for(var i in data){
-				$a=document.createElement('a');
-				$a.setAttribute('href','#');
-				$img=document.createElement('img');
+				var $a=document.createElement('a');
+				$a.setAttribute('href','demo.html');
+				var $img=document.createElement('img');
 				$img.src=data[i].src;
-				$p1=document.createElement('p');
-				$p2=document.createElement('p');
+				var $p1=document.createElement('p');
+				var $p2=document.createElement('p');
 				$p1.innerHTML=data[i].content;
 				$p2.innerHTML=data[i].money;
 				$a.appendChild($img);
