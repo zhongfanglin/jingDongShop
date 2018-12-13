@@ -32,9 +32,9 @@ gulp.task('minijs',function(){
 })
 //图片压缩
 gulp.task('miniimg',function(){
-    gulp.src('./image/*.*')
+    gulp.src('./images/*.*')
         .pipe(miniimg())
-        .pipe(gulp.dest('dist/image'))
+        .pipe(gulp.dest('dist/images'))
         .pipe(connect.reload())
     console.log('压缩img成功')
 })
@@ -78,3 +78,4 @@ gulp.task('connect',function(){
 gulp.task('clean', function () {
     del(['dist'])
 });
+gulp.task('dev',['minicss','minijs','minijson','miniimg','minihtml','connect']);
