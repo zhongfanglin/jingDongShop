@@ -38,7 +38,7 @@ var logo=(function(){
 					pwdVal=pwd.value,
 					data=`name=${txtVal}&passwords=${pwdVal}`;
 					var xhr=new XMLHttpRequest();
-					xhr.open('POST','http://10.36.141.231:8888/-/php/logo.php',true);
+					xhr.open('POST',apiObj.login,true);
 					xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
 					xhr.send(data);
 					xhr.onreadystatechange=function(){

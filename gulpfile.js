@@ -15,6 +15,10 @@ gulp.task('minijson', function() {
     gulp.src('./json/*.json')
     .pipe(gulp.dest('dist/json'))
 })
+gulp.task('api', function() {
+    gulp.src('./api/*.js')
+    .pipe(gulp.dest('dist/api'))
+})
 //压缩js
 gulp.task('minijs',function(){
     gulp.src('./js/*.js')
@@ -78,4 +82,4 @@ gulp.task('connect',function(){
 gulp.task('clean', function () {
     del(['dist'])
 });
-gulp.task('dev',['minicss','minijs','minijson','miniimg','minihtml','connect']);
+gulp.task('dev',['minicss','minijs','minijson','miniimg','api','minihtml','connect']);
